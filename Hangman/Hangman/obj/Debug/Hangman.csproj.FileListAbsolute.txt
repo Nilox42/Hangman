@@ -10,3 +10,15 @@ C:\Users\Nilox\source\repos\Hangman\Hangman\obj\Debug\Hangman.exe
 C:\Users\Nilox\source\repos\Hangman\Hangman\obj\Debug\Hangman.pdb
 C:\Users\Nilox\source\repos\Hangman\Hangman\obj\Debug\Hangman.Core.resources
 C:\Users\Nilox\source\repos\Hangman\Hangman\obj\Debug\Hangman.Selection.resources
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\Hangman.exe.config
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\Hangman.exe
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\Hangman.pdb
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.AssemblyReference.cache
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Core.resources
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Game.resources
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Properties.Resources.resources
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Selection.resources
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.GenerateResource.cache
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.CoreCompileInputs.cache
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.exe
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.pdb
