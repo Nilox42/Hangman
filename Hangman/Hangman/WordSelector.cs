@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Hangman
 {
-    public partial class Selection : Form
+    public partial class WordSelector : Form
     {
-        public Selection()
+        public WordSelector()
         {
             InitializeComponent();
         }
@@ -25,7 +25,8 @@ namespace Hangman
 
         private void Selection_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Core.instance.Close();
+            Core.instance.showMainMenu();
         }
+
     }
 }

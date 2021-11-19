@@ -1,7 +1,7 @@
 ﻿
 namespace Hangman
 {
-    partial class Selection
+    partial class WordSelector
     {
         /// <summary>
         /// Required designer variable.
@@ -31,11 +31,12 @@ namespace Hangman
         {
             this.btstart = new System.Windows.Forms.Button();
             this.tbword = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btstart
             // 
-            this.btstart.Location = new System.Drawing.Point(23, 68);
+            this.btstart.Location = new System.Drawing.Point(104, 87);
             this.btstart.Name = "btstart";
             this.btstart.Size = new System.Drawing.Size(75, 23);
             this.btstart.TabIndex = 0;
@@ -47,17 +48,29 @@ namespace Hangman
             // 
             this.tbword.Location = new System.Drawing.Point(13, 42);
             this.tbword.Name = "tbword";
-            this.tbword.Size = new System.Drawing.Size(100, 20);
+            this.tbword.Size = new System.Drawing.Size(166, 20);
             this.tbword.TabIndex = 1;
             // 
-            // Selection
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(2, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(177, 23);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Chose a word";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // WordSelector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(128, 122);
+            this.ClientSize = new System.Drawing.Size(191, 122);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tbword);
             this.Controls.Add(this.btstart);
-            this.Name = "Selection";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "WordSelector";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Selection";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Selection_FormClosing);
             this.ResumeLayout(false);
@@ -69,5 +82,6 @@ namespace Hangman
 
         private System.Windows.Forms.Button btstart;
         private System.Windows.Forms.TextBox tbword;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -17,8 +17,16 @@ C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.AssemblyRe
 C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Core.resources
 C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Game.resources
 C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Properties.Resources.resources
-C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.Selection.resources
 C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.GenerateResource.cache
 C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.csproj.CoreCompileInputs.cache
 C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.exe
 C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.pdb
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\assets\pictures\Hangman 0.png
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\assets\pictures\Hangman 1.png
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\assets\pictures\Hangman 2.png
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\assets\pictures\Hangman 3.png
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\assets\pictures\Hangman 4.png
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\assets\pictures\Hangman 5.png
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\bin\Debug\assets\pictures\Hangman 6.png
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.MainMenu.resources
+C:\.Projects\.GitHub\Hangman\Hangman\Hangman\obj\Debug\Hangman.WordSelector.resources

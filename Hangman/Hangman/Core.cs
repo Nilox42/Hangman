@@ -14,8 +14,9 @@ namespace Hangman
     {
         public static Core instance = null;
 
+        MainMenu mainmenu = null;
         Game game = null;
-        Selection selection = null;
+        WordSelector selection = null;
 
         public Core()
         {
@@ -26,7 +27,7 @@ namespace Hangman
         private void Core_Load(object sender, EventArgs e)
         {
             HideForm();
-            showSelection();
+            showMainMenu();
         }
 
         public async void HideForm()
@@ -35,7 +36,26 @@ namespace Hangman
             this.Hide();
         }
 
-        public void showSelection()
+        #region show / hide
+        public void hideMainMenu()
+        {
+            if(mainmenu != null)
+            {
+                mainmenu.Hide();
+                mainmenu.Close();
+                mainmenu = null;
+            }
+        }
+        public void showMainMenu()
+        {
+            hideGame();
+            hideSelection();
+
+            mainmenu = new MainMenu();
+            mainmenu.Show();
+        }
+
+        public void hideSelection()
         {
             if (game != null)
             {
@@ -43,12 +63,17 @@ namespace Hangman
                 game.Dispose();
                 game = null;
             }
+        }
+        public void showSelection()
+        {
+            hideGame();
+            hideMainMenu();
 
-            selection = new Selection();
+            selection = new WordSelector();
             selection.Show();
         }
 
-        public void StartGame(string word)
+        public void hideGame()
         {
             if (selection != null)
             {
@@ -56,10 +81,17 @@ namespace Hangman
                 selection.Dispose();
                 selection = null;
             }
+        }
+        public void StartGame(string word)
+        {
+            hideMainMenu();
+            hideSelection();
 
             game = new Game(word);
             game.Show();
         }
+        #endregion
+
 
     }
 }

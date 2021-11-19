@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,12 +16,20 @@ namespace Hangman
         string word = "";
         int wrongcount = 0;
         List<string> foundletters = new List<string>();
+        List<Image> images = new List<Image>();
 
         public Game(string word)
         {
             this.word = word.ToLower();
 
+            for (int i = 0; i < 7; i++)
+            {
+                images.Add(new Bitmap(Directory.GetCurrentDirectory() + @"\assets\pictures\Hangman " + i + ".png"));
+            }
+
             InitializeComponent();
+
+            pictureBox1.BackgroundImage = images.ElementAt(0);
         }
 
         private void bttestletter_Click(object sender, EventArgs e)
@@ -83,12 +92,23 @@ namespace Hangman
         public void incrementImage()
         {
             wrongcount++;
-            lbTest.Text = wrongcount.ToString();
+            if (wrongcount < 6)
+            {
+                pictureBox1.BackgroundImage = images.ElementAt(wrongcount);
+            }
+            if (wrongcount >= 6)
+            {
+                pictureBox1.BackgroundImage = images.ElementAt(6);
+
+                tbtest.Enabled = false;
+                bttestletter.Enabled = false;
+                lbdebug.Text = "Close Window to return to Menu";
+            }
         }
 
         private void Game_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Core.instance.showSelection();
+            Core.instance.showMainMenu();
         }
     }
 }
