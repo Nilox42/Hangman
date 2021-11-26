@@ -87,6 +87,15 @@ namespace Hangman
             }
 
             lbword.Text = res;
+
+            if (foundletters.Count >= word.Length)
+            {
+                lbdebug.Text = "Victory! Close Window to return to Main Menu!";
+                lbdebug.ForeColor = Color.Lime;
+
+                tbtest.Enabled = false;
+                bttestletter.Enabled = false;
+            }
         }
 
         public void incrementImage()

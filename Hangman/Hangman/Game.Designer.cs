@@ -39,14 +39,14 @@ namespace Hangman
             // 
             // tbtest
             // 
-            this.tbtest.Location = new System.Drawing.Point(9, 326);
+            this.tbtest.Location = new System.Drawing.Point(9, 339);
             this.tbtest.Name = "tbtest";
             this.tbtest.Size = new System.Drawing.Size(305, 20);
             this.tbtest.TabIndex = 1;
             // 
             // bttestletter
             // 
-            this.bttestletter.Location = new System.Drawing.Point(92, 352);
+            this.bttestletter.Location = new System.Drawing.Point(95, 365);
             this.bttestletter.Name = "bttestletter";
             this.bttestletter.Size = new System.Drawing.Size(127, 25);
             this.bttestletter.TabIndex = 2;
@@ -59,7 +59,7 @@ namespace Hangman
             this.lbdebug.BackColor = System.Drawing.Color.White;
             this.lbdebug.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbdebug.ForeColor = System.Drawing.Color.Red;
-            this.lbdebug.Location = new System.Drawing.Point(3, 391);
+            this.lbdebug.Location = new System.Drawing.Point(3, 393);
             this.lbdebug.Name = "lbdebug";
             this.lbdebug.Size = new System.Drawing.Size(311, 29);
             this.lbdebug.TabIndex = 3;
@@ -69,7 +69,7 @@ namespace Hangman
             // 
             this.lbword.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lbword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbword.Location = new System.Drawing.Point(6, 283);
+            this.lbword.Location = new System.Drawing.Point(6, 307);
             this.lbword.Name = "lbword";
             this.lbword.Size = new System.Drawing.Size(311, 29);
             this.lbword.TabIndex = 4;
@@ -81,7 +81,7 @@ namespace Hangman
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(305, 305);
+            this.pictureBox1.Size = new System.Drawing.Size(305, 292);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
